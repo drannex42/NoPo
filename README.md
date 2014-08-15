@@ -41,7 +41,7 @@ so it looks similar to this:
 ```
 ##### 7. Directly after {block:Posts} there is a second div, like this
 ```
-<div class="post">  (commonly called <article> as well)
+<div class="post">  (commonly called entry)
 ```
 (the value of 'post' may be called something different as well)
 ##### 8. Add to the 'post' class (or whatever your theme has instead called it) the following:
