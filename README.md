@@ -11,11 +11,17 @@ Created by Macleod Sawyer [(link to tumblr here)](http://itsmemacleod.tumblr.com
 ##### 4. Insert the following code:
 ```css
 <style>
-.x {display: none}
+.x {
+display: none
+}
 
-.tag_page .x {display: block}
+.tagpages .x {
+display: block
+}
 
-.perma_page .x {display: block}
+.permapages .x {
+display: block
+}
 </style>
 ```
 (be sure to change 'x' to the tag name you are going to tag the posts to hide from your theme):
@@ -27,11 +33,11 @@ Created by Macleod Sawyer [(link to tumblr here)](http://itsmemacleod.tumblr.com
 ('posts' may be called something else depending on the theme)
 ##### 6. Apend the following to the id:
 ```
-{block:TagPage} class=”tag_page” {/block:TagPage}{block:PermalinkPage}class=”perma_page”{/block:PermalinkPage}
+{block:TagPage} class=”tagpages” {/block:TagPage}{block:PermalinkPage}class=”permapages”{/block:PermalinkPage}
 ```
 so it looks similar to this:
 ```
-<div id="(what the id you found in step 5 was)" {block:TagPage} class=”tag_page” {/block:TagPage}{block:PermalinkPage}class=”perma_page”{/block:PermalinkPage}>
+<div id="(what the id you found in step 5 was)" {block:TagPage} class=”tagpages” {/block:TagPage}{block:PermalinkPage}class=”permapages”{/block:PermalinkPage}>
 ```
 ##### 7. Directly after {block:Posts} there is a second div, like this
 ```
@@ -46,7 +52,7 @@ so it looks similar to this:
 ```
  <div class="(whatever you found in step 7) {block:IndexPage}{TagsAsClasses}{block:IndexPage} ">
 ```
-
+That space between <code>)</code> and <code>{</code> is very important.
 ### You're done! 
 
 Now anything you tag with the tag you selected in step four in the css will no longer show up on the first page on your blog! (but will show up on permalinks like /post/94769233934/x/, and tagged pages like /tagged/x/!  
