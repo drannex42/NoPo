@@ -50,7 +50,7 @@ so it looks similar to this:
 ```
 so it looks similar to this:
 ```
- <div class="(whatever you found in step 7) {block:IndexPage}{TagsAsClasses}{block:IndexPage} ">
+ <div class="(whatever you found in step 7) {block:IndexPage}{TagsAsClasses}{/block:IndexPage} ">
 ```
 That space between <code>)</code> and <code>{</code> is very important.
 ### You're done! 
