@@ -31,7 +31,7 @@ display: block
 {block:Posts}
 ```
 ('posts' may be called something else depending on the theme)
-##### 6. Apend the following to the id:
+##### 6. Add the following code:
 ```
 {block:TagPage} class=”tagpages” {/block:TagPage}{block:PermalinkPage}class=”permapages”{/block:PermalinkPage}
 ```
@@ -44,7 +44,7 @@ so it looks similar to this:
 <div class="post"> 
 ```
 (the value of 'post' may be called something different as well)
-##### 8. Append to the 'post' class (or whatever you have) the following:
+##### 8. Add to the 'post' class (or whatever your theme has instead called it) the following:
 ```
  {block:IndexPage}{TagsAsClasses}{block:IndexPage}
 ```
