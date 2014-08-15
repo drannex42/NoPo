@@ -27,7 +27,7 @@ display: block
 (be sure to change 'x' to the tag name you are going to tag the posts to hide from your theme):
 ##### 5. Now, find the div tag thats directly before the {block:Posts}, For example: 
 ```
-<div id="posts"> <--- THIS RIGHT HERE
+<div id="posts"> <--- THIS RIGHT HERE (commonly called <article> as well)
 {block:Posts}
 ```
 ('posts' may be called something else depending on the theme)
@@ -41,7 +41,7 @@ so it looks similar to this:
 ```
 ##### 7. Directly after {block:Posts} there is a second div, like this
 ```
-<div class="post"> 
+<div class="post">  (commonly called <article> as well)
 ```
 (the value of 'post' may be called something different as well)
 ##### 8. Add to the 'post' class (or whatever your theme has instead called it) the following:
