@@ -65,15 +65,19 @@ In some themes that are 2+ columns we arriver with a bug and as per my usual sel
 
 ##### 9. Right before {block:Posts} paste one of the following:
 ```
+{block:IndexPage}
 <div class="(insert whatever you found in step 7)">
 <small><a href=""></a></h2></small>
 </div>
+{/block:IndexPage}
 ```
 or
 ```
+{block:IndexPage}
 <div class="(insert whatever you found in step 7)" style="visibility:none;">
 <small><a href=""></a></h2></small>
 </div>
+{/block:IndexPage}
 ```
 
 ### You're done! (hopefully)
