@@ -85,12 +85,14 @@ or
 ## If you use a theme that has ```<article>``` tags for the posts:
 
 ##### 10. find the part of the theme that says ```<section id="posts" class="```
-now right after ```class="``` add ```{block:TagPage}tagpages{/block:TagPage}{block:PermalinkPage}permapages{/block:PermalinkPage} ``` *don't forget a space at the end its very important!
+now right after ```class="``` add ```{block:TagPage}tagpages{/block:TagPage}{block:PermalinkPage}permapages{/block:PermalinkPage} ``` 
+*don't forget a space at the end its very important!
 
 ##### 11. find the part of the theme that says ```{block:Posts} <article class="```
 
 add this right after ```class="```:
-```{block:IndexPage}{TagsAsClasses}{block:IndexPage} ``` *don't forget the space at the end! 
+```{block:IndexPage}{TagsAsClasses}{block:IndexPage} ``` 
+*don't forget the space at the end! 
 
 
 ### You're done! (hopefully)
