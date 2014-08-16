@@ -89,7 +89,7 @@ now right after ```class="``` add this:
 
 ```{block:TagPage}tagpages{/block:TagPage}{block:PermalinkPage}permapages{/block:PermalinkPage} ```*
 
-*don't forget a space at the end its very important!
+*don't forget to add a space at the end! 
 
 ##### 11. find the part of the theme that says ```{block:Posts} <article class="```
 
@@ -97,7 +97,7 @@ add this right after ```class="```:
 
 ```{block:IndexPage}{TagsAsClasses}{block:IndexPage} ```* 
 
-*don't forget the space at the end! 
+*don't forget to add a space at the end! 
 
 
 ### You're done! (hopefully)
