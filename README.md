@@ -84,7 +84,7 @@ or
 
 ## If you use a theme that has ```<article>``` tags for the posts:
 
-##### 10. find the part of the theme that says (not all will have id="posts") ```<section id="posts" class="```
+##### 10. find the part of the theme that says ```<section id="posts" class="``` (not all will have id="posts")
 now right after ```class="``` add this:
 
 ```{block:TagPage}tagpages{/block:TagPage}{block:PermalinkPage}permapages{/block:PermalinkPage} ```*
