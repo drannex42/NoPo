@@ -82,7 +82,7 @@ or
 {/block:IndexPage}
 ```
 
-## If you use a theme that has <article> tags for the posts:
+## If you use a theme that has ```<article>``` tags for the posts:
 
 ##### 10. find the part of the theme that says ```<section id="posts" class="```
 now right after ```class="``` add ```{block:TagPage}tagpages{/block:TagPage}{block:PermalinkPage}permapages{/block:PermalinkPage} ``` *don't forget a space at the end its very important!
