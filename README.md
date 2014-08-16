@@ -9,7 +9,7 @@ Update: If your theme currently has <code>< article ></code> in the code for pos
 ## How to Install: 
 ##### 1. Go to the theme editor for your blog. 
 ##### 2. Click on "Edit Theme"
-##### 3. Scroll Down till you see <code></ head></code> (trust me its there)
+##### 3. Scroll Down till you see <code></ head></code> (trust me its there) paste the following code ABOVE IT
 ##### 4. Insert the following code:
 ```css
 <style>
