@@ -4,7 +4,7 @@ NoPo
 NoPo - No Post, Allows you to block a specific tagged post from being seen on your tumblr homepage. 
 Created by Macleod Sawyer [(link to tumblr here)](http://itsmemacleod.tumblr.com/)
 
-Update: If your theme currently has <code>< article ></code> in the code for posts, this method will not work till I rework it.
+Update: If your theme currently has <code>< article ></code> in the code for posts, ~~ this method will not work till I rework it.~~ **Fixed the issue. scroll down to see the fix!**
 
 ## How to Install: 
 ##### 1. Go to the theme editor for your blog. 
