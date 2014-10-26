@@ -104,5 +104,5 @@ add this right after ```class="```:
 
 If you have any issues please contact me on the issues page on here, on facebook, or on my tumblr (although I may or may not respond on there).
 
-*Follow me on tumblr: [http://maxcleod.tumblr.com(http://itsmemacleod.tumblr.com)* <br>
+*Follow me on tumblr: [http://maxcleod.tumblr.com](http://itsmemacleod.tumblr.com)* <br>
 *Follow me on twitter: [twitter.com/mxcleodsawyer](http://twitter.com/mxcleodsawyer)*
