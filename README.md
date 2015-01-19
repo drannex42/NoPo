@@ -35,11 +35,11 @@ display: block
 ('posts' may be called something else depending on the theme)
 ##### 6. Add the following code:
 ```
-{block:TagPage} class=”tagpages” {/block:TagPage}{block:PermalinkPage}class=”permapages”{/block:PermalinkPage}
+{block:TagPage} tagpages {/block:TagPage}{block:PermalinkPage}permapages{/block:PermalinkPage}
 ```
 so it looks similar to this:
 ```
-<div id="(what the id you found in step 5 was)" {block:TagPage} class=”tagpages” {/block:TagPage}{block:PermalinkPage}class=”permapages”{/block:PermalinkPage}>
+<div class="(what the id you found in step 5 was) {block:TagPage} tagpages  {/block:TagPage}{block:PermalinkPage}permapages{/block:PermalinkPage}">
 ```
 ##### 7. Directly after {block:Posts} there is a second div, like this
 ```
