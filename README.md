@@ -13,34 +13,21 @@ Update: If your theme currently has <code>< article ></code> in the code for pos
 ##### 4. Insert the following code:
 ```css
 <style>
-.x {
-display: none
-}
-
-.tagpages .x {
-display: block
-}
-
-.permapages .x {
-display: block
-}
+    {block:IndexPage} 
+    .x {
+        display:none;
+        }
+    {/block:IndexPage}
+    
+    {block:TagPage}
+    .x {
+        display:block;
+        }
+  {/block:TagPage}
 </style>
 ```
 (be sure to change 'x' to the tag name you are going to tag the posts to hide from your theme):
-##### 5. Now, find the div tag thats directly before the {block:Posts}, For example: 
-```
-<div id="posts"> <--- THIS RIGHT HERE
-{block:Posts}
-```
-('posts' may be called something else depending on the theme)
-##### 6. Add the following code:
-```
-{block:TagPage} tagpages {/block:TagPage}{block:PermalinkPage}permapages{/block:PermalinkPage}
-```
-so it looks similar to this:
-```
-<div class="(what the id you found in step 5 was) {block:TagPage} tagpages  {/block:TagPage}{block:PermalinkPage}permapages{/block:PermalinkPage}">
-```
+
 ##### 7. Directly after {block:Posts} there is a second div, like this
 ```
 <div class="post">  (commonly called entry)
@@ -48,13 +35,13 @@ so it looks similar to this:
 (the value of 'post' may be called something different as well)
 ##### 8. Add to the 'post' class (or whatever your theme has instead called it) the following:
 ```
- {block:IndexPage}{TagsAsClasses}{block:IndexPage}
+ {TagsAsClasses}
 ```
 so it looks similar to this:
 ```
- <div class="(whatever you found in step 7) {block:IndexPage}{TagsAsClasses}{/block:IndexPage} ">
+ <div class="(whatever you found in step 7) {TagsAsClasses}">
 ```
-That space between <code>)</code> and <code>{</code> is very important.
+The space between <code>)</code> and <code>{</code> is very important.
 ### You're done! 
 
 Now anything you tag with the tag you selected in step four in the css will no longer show up on the first page on your blog! (but will show up on permalinks like /post/94769233934/x/, and tagged pages like /tagged/x/!  
@@ -84,18 +71,11 @@ or
 
 ## If you use a theme that has ```<article>``` tags for the posts:
 
-##### 10. find the part of the theme that says ```<section id="posts" class="``` (not all themes will have id="posts")
-now right after ```class="``` add this:
-
-```{block:TagPage}tagpages{/block:TagPage}{block:PermalinkPage}permapages{/block:PermalinkPage} ```*
-
-*don't forget to add a space at the end! 
-
 ##### 11. find the part of the theme that says ```{block:Posts} <article class="```
 
 add this right after ```class="```:
 
-```{block:IndexPage}{TagsAsClasses}{block:IndexPage} ```* 
+```{TagsAsClasses}```* 
 
 *don't forget to add a space at the end! 
 
@@ -105,4 +85,4 @@ add this right after ```class="```:
 If you have any issues please contact me on the issues page on here, on facebook, or on my tumblr (although I may or may not respond on there).
 
 *Follow me on tumblr: [http://mxcleod.tumblr.com](http://mxcleod.tumblr.com)* <br>
-*Follow me on twitter: [twitter.com/mxcleodsawyer](http://twitter.com/mxcleodsawyer)*
+*Follow me on twitter: [twitter.com/mxsawyer](http://twitter.com/mxsawyer)*
