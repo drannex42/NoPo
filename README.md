@@ -28,12 +28,12 @@ Update: If your theme currently has <code>< article ></code> in the code for pos
 ```
 (be sure to change 'x' to the tag name you are going to tag the posts to hide from your theme):
 
-##### 7. Directly after {block:Posts} there is a second div, like this
+##### 5. Directly after {block:Posts} there is a second div, like this
 ```
 <div class="post">  (commonly called entry)
 ```
 (the value of 'post' may be called something different as well)
-##### 8. Add to the 'post' class (or whatever your theme has instead called it) the following:
+##### 6. Add to the 'post' class (or whatever your theme has instead called it) the following:
 ```
  {TagsAsClasses}
 ```
@@ -52,7 +52,7 @@ Follow ALL of the above steps and then please continue on:
 
 In some themes that are 2+ columns we arriver with a bug and as per my usual self, I made a work around, that does just that, it works around the issue instead of fixing it.
 
-##### 9. Right before {block:Posts} paste one of the following:
+##### 7. Right before {block:Posts} paste one of the following:
 ```
 {block:IndexPage}
 <div class="(insert whatever you found in step 7)">
@@ -71,7 +71,7 @@ or
 
 ## If you use a theme that has ```<article>``` tags for the posts:
 
-##### 11. find the part of the theme that says ```{block:Posts} <article class="```
+##### 8. find the part of the theme that says ```{block:Posts} <article class="```
 
 add this right after ```class="```:
 
